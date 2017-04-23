@@ -1,0 +1,67 @@
+
+html,body{
+	background-color: gray;
+	/*height: 100%;*/
+}
+
+.gameBox{
+	background-color: khaki;
+	position: relative;
+	width: 80vw;
+	height: 80vh;
+	margin-left: 10%;
+	margin-top: 5%;
+	bottom: 10%;
+}
+
+.title{
+	position: absolute;
+	box-sizing: border-box;
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: blue;
+}
+
+#titleLine{
+	text-align: center;
+	font-size: 80px;
+}
+
+.button{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+
+//Button
+#START{
+	font: 50px;
+	width: 100px;
+}
+
+
+
+//THE GAME DIV
+.Game{
+	box-sizing: border-box;
+	position: absolute;
+}
+
+
+
+#displayTime{
+	position: absolute;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	margin-top: 110px;
+	font-size: 40px;
+}
+
+.questions{
+    position: absolute;
+    box-sizing: border-box;
+    top: 40%;
+    left: 25%;
+}
